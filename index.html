@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>-->
+  <!-- <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style> -->
+  <link rel="stylesheet" type="text/css" href="master.css">
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.js"></script>
+  <script src="libraries/p5.sound.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+
+  <script src="sketch.js"></script>
+  <script src="func.js"></script>
+  <script src="proto.js"></script>
+</head>
+
+<body>
+  <!-- <img class="backg" src="img1.jpg" alt=""> -->
+  <ul class="texti">
+    <li>
+      <h1 id="score">Score:</h1>
+    </li>
+    <li>
+      <h1 id="num"></h1>
+    </li>
+  </ul>
+  <ul class="but">
+    <li> <button id="PAUSE" type="button" name="button">PAUSE</button></li>
+    <li> <button id="RESTART" type="button" name="button">RESTART</button></li>
+  </ul>
+  <input id="database" type="text" name="" value="">
+  <button id="data_but" type="button" name="button">send info</button>
+</body>
+
+</html>
